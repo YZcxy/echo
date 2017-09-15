@@ -1,0 +1,10 @@
+/Users/bzhang/Documents/workspace_git/2017/echo/echo-csharp/bin/Debug/netcoreapp2.0/echo-csharp.deps.json
+/Users/bzhang/Documents/workspace_git/2017/echo/echo-csharp/bin/Debug/netcoreapp2.0/echo-csharp.runtimeconfig.json
+/Users/bzhang/Documents/workspace_git/2017/echo/echo-csharp/bin/Debug/netcoreapp2.0/echo-csharp.runtimeconfig.dev.json
+/Users/bzhang/Documents/workspace_git/2017/echo/echo-csharp/bin/Debug/netcoreapp2.0/echo-csharp.dll
+/Users/bzhang/Documents/workspace_git/2017/echo/echo-csharp/bin/Debug/netcoreapp2.0/echo-csharp.pdb
+/Users/bzhang/Documents/workspace_git/2017/echo/echo-csharp/obj/Debug/netcoreapp2.0/echo-csharp.csproj.CoreCompileInputs.cache
+/Users/bzhang/Documents/workspace_git/2017/echo/echo-csharp/obj/Debug/netcoreapp2.0/echo-csharp.AssemblyInfoInputs.cache
+/Users/bzhang/Documents/workspace_git/2017/echo/echo-csharp/obj/Debug/netcoreapp2.0/echo-csharp.AssemblyInfo.cs
+/Users/bzhang/Documents/workspace_git/2017/echo/echo-csharp/obj/Debug/netcoreapp2.0/echo-csharp.dll
+/Users/bzhang/Documents/workspace_git/2017/echo/echo-csharp/obj/Debug/netcoreapp2.0/echo-csharp.pdb

@@ -1,0 +1,54 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "23eedfa962bdb36831c23e3e61fe6ed568fc2bb6"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "echo-csharp/1.0.0": {
+        "dependencies": {
+          "Apache.NMS": "1.5.1",
+          "Apache.NMS.Stomp": "1.5.4"
+        },
+        "runtime": {
+          "echo-csharp.dll": {}
+        }
+      },
+      "Apache.NMS/1.5.1": {
+        "runtime": {
+          "lib/net40/Apache.NMS.dll": {}
+        }
+      },
+      "Apache.NMS.Stomp/1.5.4": {
+        "dependencies": {
+          "Apache.NMS": "1.5.1"
+        },
+        "runtime": {
+          "lib/net40/Apache.NMS.Stomp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "echo-csharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Apache.NMS/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dFTIktMcQEW4lq6xZz5oUipr9NktlTMfgmjyGPm6X8B+2TjItDGXKTJpbUYcBchwLH+m7PGqhE+YbA/iTx/AGg==",
+      "path": "apache.nms/1.5.1",
+      "hashPath": "apache.nms.1.5.1.nupkg.sha512"
+    },
+    "Apache.NMS.Stomp/1.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qbWF33+VQw+5JNPneilOp/pndKCKJgvsD7uv8gmFvQDtWezN3q+pMWis9arC7Zh9dcXtkvalCq+KZrZ2PbqUjw==",
+      "path": "apache.nms.stomp/1.5.4",
+      "hashPath": "apache.nms.stomp.1.5.4.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Apache.NMS" Version="1.5.1" />
+    <PackageReference Include="Apache.NMS.Stomp" Version="1.5.4" />
+  </ItemGroup>
+</Project>
