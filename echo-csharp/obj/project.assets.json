@@ -11,6 +11,18 @@
           "lib/net40/Apache.NMS.dll": {}
         }
       },
+      "Apache.NMS.ActiveMQ/1.5.6": {
+        "type": "package",
+        "dependencies": {
+          "Apache.NMS": "1.5.1"
+        },
+        "compile": {
+          "lib/net40/Apache.NMS.ActiveMQ.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Apache.NMS.ActiveMQ.dll": {}
+        }
+      },
       "Apache.NMS.Stomp/1.5.4": {
         "type": "package",
         "dependencies": {
@@ -238,6 +250,23 @@
         "lib/net35/Apache.NMS.pdb",
         "lib/net40/Apache.NMS.dll",
         "lib/net40/Apache.NMS.pdb"
+      ]
+    },
+    "Apache.NMS.ActiveMQ/1.5.6": {
+      "sha512": "4tR4r8ULiKKm7LIUHw6apGaXxwxDCxfIG7B+PEo6/7poyslTqjg9/IwspTzWWxTjKWZvOt9cOhAMxacbjlivkg==",
+      "type": "package",
+      "path": "apache.nms.activemq/1.5.6",
+      "files": [
+        "LICENSE.txt",
+        "NOTICE.txt",
+        "apache.nms.activemq.1.5.6.nupkg.sha512",
+        "apache.nms.activemq.nuspec",
+        "lib/net20/Apache.NMS.ActiveMQ.dll",
+        "lib/net20/Apache.NMS.ActiveMQ.pdb",
+        "lib/net35/Apache.NMS.ActiveMQ.dll",
+        "lib/net35/Apache.NMS.ActiveMQ.pdb",
+        "lib/net40/Apache.NMS.ActiveMQ.dll",
+        "lib/net40/Apache.NMS.ActiveMQ.pdb"
       ]
     },
     "Apache.NMS.Stomp/1.5.4": {
@@ -724,6 +753,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Apache.NMS >= 1.5.1",
+      "Apache.NMS.ActiveMQ >= 1.5.6",
       "Apache.NMS.Stomp >= 1.5.4",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -776,6 +806,10 @@
             "target": "Package",
             "version": "1.5.1"
           },
+          "Apache.NMS.ActiveMQ": {
+            "target": "Package",
+            "version": "1.5.6"
+          },
           "Apache.NMS.Stomp": {
             "target": "Package",
             "version": "1.5.4"
@@ -796,6 +830,16 @@
       "warningLevel": 1,
       "message": "Package 'Apache.NMS 1.5.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "Apache.NMS",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Apache.NMS.ActiveMQ 1.5.6' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Apache.NMS.ActiveMQ",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
       ]

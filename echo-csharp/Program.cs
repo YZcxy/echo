@@ -8,7 +8,13 @@ namespace echo_csharp
     {
         static void Main(string[] args)
         {
-            Publish.pubHandler();
+            var messages = 10;
+            while (messages-- > 0)
+            {
+                Producer.proHandler();
+                Publish.pubHandler();
+            }
+
         }
     }
-} 
+}
