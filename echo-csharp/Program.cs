@@ -8,11 +8,11 @@ namespace echo_csharp
     {
         static void Main(string[] args)
         {
-            var messages = 10;
+            var messages = 3;
             while (messages-- > 0)
             {
                 Producer.proHandler();
-                Publish.pubHandler();
+                Publish.pubHandler();   
             }
 
         }

@@ -30,7 +30,7 @@ namespace echo_csharp
 	        IMessageProducer producer = session.CreateProducer(dest);
             producer.DeliveryMode = MsgDeliveryMode.NonPersistent;
             //发送消息
-            String body = "hello,websocket!!  I'm C#";
+            var body = CreateMessage.doCreate();
             producer.Send(session.CreateTextMessage(body));
             //关闭连接
 	        connection.Close();

@@ -18,8 +18,11 @@ $(document).ready(function () {
             //订阅主题
             client.subscribe(destination, function (message) {
                 //处理message对象。
+                message = JSON.parse(message.body);
                 var p = document.createElement("p");
-                p.appendChild(document.createTextNode(message.body));
+                p.appendChild(document.createTextNode(message.ID));
+                p.appendChild(document.createTextNode(message.Detail));
+                p.appendChild(document.createTextNode(message.Time));
                 $("#messages").append(p);
             });
         });

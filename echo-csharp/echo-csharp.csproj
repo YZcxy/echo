@@ -7,5 +7,6 @@
     <PackageReference Include="Apache.NMS" Version="1.5.1" />
     <PackageReference Include="Apache.NMS.ActiveMQ" Version="1.5.6" />
     <PackageReference Include="Apache.NMS.Stomp" Version="1.5.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
 </Project>
